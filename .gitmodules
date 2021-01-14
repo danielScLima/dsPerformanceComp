@@ -1,0 +1,78 @@
+[submodule "DataStructureComp/submodules/SplayTree"]
+	path = DataStructureComp/submodules/SplayTree
+	url = https://github.com/danielScLima/SplayTree.git
+[submodule "DataStructureComp/submodules/BTree"]
+	path = DataStructureComp/submodules/BTree
+	url = https://github.com/danielScLima/BTree.git
+[submodule "DataStructureComp/submodules/BPlusTree"]
+	path = DataStructureComp/submodules/BPlusTree
+	url = https://github.com/danielScLima/BPlusTree.git
+[submodule "DataStructureComp/submodules/AvlTree"]
+	path = DataStructureComp/submodules/AvlTree
+	url = https://github.com/danielScLima/AvlTree.git
+[submodule "DataStructureComp/submodules/TernarySearchTree"]
+	path = DataStructureComp/submodules/TernarySearchTree
+	url = https://github.com/danielScLima/TernarySearchTree.git
+[submodule "DataStructureComp/submodules/RedBlackTree"]
+	path = DataStructureComp/submodules/RedBlackTree
+	url = https://github.com/danielScLima/RedBlackTree.git
+[submodule "DataStructureComp/submodules/RadixTree"]
+	path = DataStructureComp/submodules/RadixTree
+	url = https://github.com/danielScLima/RadixTree.git
+[submodule "DataStructureComp/submodules/BStarTree"]
+	path = DataStructureComp/submodules/BStarTree
+	url = https://github.com/danielScLima/BStarTree.git
+[submodule "DataStructureComp/submodules/BinaryTree"]
+	path = DataStructureComp/submodules/BinaryTree
+	url = https://github.com/danielScLima/BinaryTree.git
+[submodule "DataStructureComp/submodules/LeftistHeap"]
+	path = DataStructureComp/submodules/LeftistHeap
+	url = https://github.com/danielScLima/LeftistHeap.git
+[submodule "DataStructureComp/submodules/FibonacciHeap"]
+	path = DataStructureComp/submodules/FibonacciHeap
+	url = https://github.com/danielScLima/FibonacciHeap.git
+[submodule "DataStructureComp/submodules/BinomialHeap"]
+	path = DataStructureComp/submodules/BinomialHeap
+	url = https://github.com/danielScLima/BinomialHeap.git
+[submodule "DataStructureComp/submodules/PatriciaTreeStoreBinaryDifferentLenKeys"]
+	path = DataStructureComp/submodules/PatriciaTreeStoreBinaryDifferentLenKeys
+	url = https://github.com/danielScLima/PatriciaTreeStoreBinaryDifferentLenKeys.git
+[submodule "DataStructureComp/submodules/TrieOrPrefixTree"]
+	path = DataStructureComp/submodules/TrieOrPrefixTree
+	url = https://github.com/danielScLima/TrieOrPrefixTree.git
+[submodule "DataStructureComp/submodules/PatriciaTreeBinarySameLenKeys"]
+	path = DataStructureComp/submodules/PatriciaTreeBinarySameLenKeys
+	url = https://github.com/danielScLima/PatriciaTreeBinarySameLenKeys.git
+[submodule "DataStructureComp/submodules/DoubledLinkedListCircular"]
+	path = DataStructureComp/submodules/DoubledLinkedListCircular
+	url = https://github.com/danielScLima/DoubledLinkedListCircular.git
+[submodule "DataStructureComp/submodules/DoubledLinkedList"]
+	path = DataStructureComp/submodules/DoubledLinkedList
+	url = https://github.com/danielScLima/DoubledLinkedList.git
+[submodule "DataStructureComp/submodules/ListCircular"]
+	path = DataStructureComp/submodules/ListCircular
+	url = https://github.com/danielScLima/ListCircular.git
+[submodule "DataStructureComp/submodules/List"]
+	path = DataStructureComp/submodules/List
+	url = https://github.com/danielScLima/List.git
+[submodule "DataStructureComp/submodules/Stack"]
+	path = DataStructureComp/submodules/Stack
+	url = https://github.com/danielScLima/Stack.git
+[submodule "DataStructureComp/submodules/Queue"]
+	path = DataStructureComp/submodules/Queue
+	url = https://github.com/danielScLima/Queue.git
+[submodule "DataStructureComp/submodules/Tree23"]
+	path = DataStructureComp/submodules/Tree23
+	url = https://github.com/danielScLima/Tree23.git
+[submodule "DataStructureComp/submodules/SkewHeap"]
+	path = DataStructureComp/submodules/SkewHeap
+	url = https://github.com/danielScLima/SkewHeap.git
+[submodule "DataStructureComp/submodules/MinMaxHeap"]
+	path = DataStructureComp/submodules/MinMaxHeap
+	url = https://github.com/danielScLima/MinMaxHeap.git
+[submodule "DataStructureComp/submodules/MinHeap"]
+	path = DataStructureComp/submodules/MinHeap
+	url = https://github.com/danielScLima/MinHeap.git
+[submodule "DataStructureComp/submodules/MaxHeap"]
+	path = DataStructureComp/submodules/MaxHeap
+	url = https://github.com/danielScLima/MaxHeap.git

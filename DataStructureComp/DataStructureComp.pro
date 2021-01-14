@@ -89,6 +89,7 @@ SOURCES += \
     submodules/DoubledLinkedListCircular/doubledlinkedlistcircular.cpp \
     submodules/FibonacciHeap/fibonacciheap.cpp \
     submodules/LeftistHeap/leftistheap.cpp \
+    submodules/LeftistHeap/leftistheapnode.cpp \
     submodules/List/list.cpp \
     submodules/ListCircular/listcircular.cpp \
     submodules/MaxHeap/maxheap.cpp \
@@ -97,6 +98,7 @@ SOURCES += \
     submodules/PatriciaTreeBinarySameLenKeys/patriciatreebinarysamelenkeys.cpp \
     submodules/PatriciaTreeStoreBinaryDifferentLenKeys/patriciatreestorebinarydifferentlenkeys.cpp \
     submodules/Queue/queue.cpp \
+    submodules/RadixTree/radixnode.cpp \
     submodules/RadixTree/radixtree.cpp \
     submodules/RedBlackTree/redblacktree.cpp \
     submodules/SkewHeap/skewheap.cpp \

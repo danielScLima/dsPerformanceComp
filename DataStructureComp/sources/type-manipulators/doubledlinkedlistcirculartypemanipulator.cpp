@@ -1,4 +1,5 @@
 #include "headers/type-manipulators/doubledlinkedlistcirculartypemanipulator.h"
+#include <stdexcept>
 
 void DoubledLinkedListCircularTypeManipulator::initialize()
 {

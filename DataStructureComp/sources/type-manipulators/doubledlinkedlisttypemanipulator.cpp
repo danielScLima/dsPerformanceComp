@@ -1,4 +1,5 @@
 #include "headers/type-manipulators/doubledlinkedlisttypemanipulator.h"
+#include <stdexcept>
 
 void DoubledLinkedListTypeManipulator::initialize()
 {

@@ -1,4 +1,5 @@
 #include "headers/type-manipulators/stacktypemanipulator.h"
+#include <stdexcept>
 
 void StackTypeManipulator::initialize()
 {

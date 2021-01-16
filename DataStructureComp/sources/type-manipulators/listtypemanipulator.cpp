@@ -1,4 +1,5 @@
 #include "headers/type-manipulators/listtypemanipulator.h"
+#include <stdexcept>
 
 void ListTypeManipulator::initialize()
 {

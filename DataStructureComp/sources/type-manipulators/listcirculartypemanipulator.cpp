@@ -1,4 +1,5 @@
 #include "headers/type-manipulators/listcirculartypemanipulator.h"
+#include <stdexcept>
 
 void ListCircularTypeManipulator::initialize()
 {

@@ -1,4 +1,5 @@
 #include "headers/type-manipulators/queuetypemanipulator.h"
+#include <stdexcept>
 
 void QueueTypeManipulator::initialize()
 {

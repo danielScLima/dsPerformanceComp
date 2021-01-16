@@ -62,6 +62,7 @@ script:
      - cd DataStructureComp/
      - git submodule update --init --recursive
      - git pull --recurse-submodules
+     - git submodule foreach 'git pull origin master'
      - make -f MakefileGeneral
      - ./saida
 

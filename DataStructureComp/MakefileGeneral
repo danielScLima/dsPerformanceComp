@@ -1,0 +1,23 @@
+
+FILES = $(shell ls submodules/*/*.cpp | egrep -v 'mainwindow.cpp' | egrep -v 'program.cpp' | egrep -v 'main.cpp')
+
+all: $(FILES)
+	g++ -I./ -c sources/comparissonrunner.cpp
+	g++ -I./ -c sources/datastructureenumtypes.cpp
+	g++ -I./ -c sources/datastructuresperformancecomparator.cpp
+	g++ -I./ -c sources/datastructuretypemanipulator.cpp
+	g++ -I./ -I./submodules/ -I./submodules/BTree/ -c sources/datastructuretypemanipulatorfactory.cpp
+	
+	
+	ld -relocatable *.o -o dscomp.o
+
+$(FILES):
+	@ls $@
+	g++ -I./ -I./submodules/ -I./submodules/BTree/ -c $@
+	
+
+.PHONY: all $(FILES)
+
+clean:
+	rm -rf *.o
+

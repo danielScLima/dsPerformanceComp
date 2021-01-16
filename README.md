@@ -1,5 +1,6 @@
 Data Structure Performance Comparator
 ====================
+Build with AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/2af8p2mq6f8w5v32?svg=true)](https://ci.appveyor.com/project/DanielSLima/dsperformancecomp)
 Build with Travis: [![Build Status](https://travis-ci.com/danielScLima/dsPerformanceComp.svg?branch=master)](https://travis-ci.com/danielScLima/dsPerformanceComp)
 
 This repository has a project with the implementation of a Data Structure Performance Comparator.

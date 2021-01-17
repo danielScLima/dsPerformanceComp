@@ -40,7 +40,6 @@ INCLUDEPATH += $$PWD/submodules/MinHeap
 INCLUDEPATH += $$PWD/submodules/MaxHeap
 
 SOURCES += \
-    datastructurecomp.cpp \
     sources/comparissonrunner.cpp \
     sources/datastructureenumtypes.cpp \
     sources/datastructuresperformancecomparator.cpp \
@@ -110,7 +109,6 @@ SOURCES += \
     submodules/TrieOrPrefixTree/trieorprefixtree.cpp
 
 HEADERS += \
-    datastructurecomp.h \
     headers/comparissonrunner.h \
     headers/datastructurecategoryenumtypedefinition.h \
     headers/datastructurecategorytype.h \

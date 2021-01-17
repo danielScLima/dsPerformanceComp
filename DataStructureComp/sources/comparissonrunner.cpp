@@ -40,14 +40,14 @@ int ComparissonRunner::makeRemove
 SimulationResults ComparissonRunner::run
 (
     int optionToRun, //0-insert, 1-remove,2search
-    const std::vector<EnumDataStructureType> vec
+    const std::vector<EnumDataStructureType> vec,
+    int sizeOfUsedCounts
 )
 {
     SimulationResults simulationResults;
     simulationResults.operation = optionToRun;
 
-    int sizeOfUsedCounts = 5;
-    for(int index = 1;index<sizeOfUsedCounts;++index)
+    for(int index = 1;index<=sizeOfUsedCounts;++index)
     {
         int count = pow(10, index);
         simulationResults.usedCounts.push_back(count);
@@ -74,7 +74,7 @@ SimulationResults ComparissonRunner::run
         }
 
         //uses optionToRun, to execute the right option
-        for(int index = 1;index<sizeOfUsedCounts;++index)
+        for(int index = 1;index<=sizeOfUsedCounts;++index)
         {
             long int count = pow(10, index);
             long int ret = this->getValue(optionToRun, manipulator, count);

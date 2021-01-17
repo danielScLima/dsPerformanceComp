@@ -31,7 +31,8 @@ public:
     SimulationResults run
     (
         int optionToRun, //0-insert, 1-remove,2search
-        const std::vector<EnumDataStructureType> vec
+        const std::vector<EnumDataStructureType> vec,
+        int sizeOfUsedCounts = 5
     );
 
     static int makeInsert(DataStructureTypeManipulator* manipulator, long int count);

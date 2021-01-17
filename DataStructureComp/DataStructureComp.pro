@@ -191,6 +191,25 @@ HEADERS += \
     submodules/TrieOrPrefixTree/NodeOfTrieOrPrefixTree.h \
     submodules/TrieOrPrefixTree/trieorprefixtree.h
 
+CONFIG += debug_and_release
+
+win32 {
+    CONFIG(debug, debug|release) {
+        DESTDIR = $$PWD/debug/
+    } else {
+        DESTDIR = $$PWD/release/
+    }
+}
+
+!win32 {
+    CONFIG(debug, debug|release) {
+        DESTDIR = $$PWD/debug/
+    } else {
+        DESTDIR = $$PWD/release/
+    }
+}
+
+
 # Default rules for deployment.
 unix {
     target.path = $$[QT_INSTALL_PLUGINS]/generic

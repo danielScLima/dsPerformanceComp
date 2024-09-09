@@ -47,9 +47,11 @@ SimulationResults ComparissonRunner::run
     SimulationResults simulationResults;
     simulationResults.operation = optionToRun;
 
+    std::vector<int> options = {0, 100000, 150000, 200000, 250000};
     for(int index = 1;index<=sizeOfUsedCounts;++index)
     {
-        int count = pow(10, index);
+        //int count = pow(10, index);
+        int count = options[index];
         simulationResults.usedCounts.push_back(count);
     }
 
@@ -76,7 +78,8 @@ SimulationResults ComparissonRunner::run
         //uses optionToRun, to execute the right option
         for(int index = 1;index<=sizeOfUsedCounts;++index)
         {
-            long int count = pow(10, index);
+            //long int count = pow(10, index);
+            long int count = options[index];
             long int ret = this->getValue(optionToRun, manipulator, count);
             times.push_back(ret);
         }
